@@ -1,0 +1,141 @@
+html{
+ 
+    animation: back 11s linear infinite;
+    background: white;
+}
+
+@keyframes back{
+    0%{
+        background-color: #0D47A1;
+    }
+    10%{
+        background-color: #1565C0 ;
+    }
+    20%{
+        background-color: #1976D2 ;
+    }
+    30%{
+        background-color: #1E88E5 ;
+    }
+    40%{
+        background-color: #2196F3 ;
+    }
+    50%{
+        background-color: #42A5F5 ;
+    }
+    60%{
+        background-color: #64B5F6 ;
+    }
+    70%{
+        background-color: #90CAF9 ;
+    }
+    80%{
+        background-color: #BBDEFB ;
+    }
+    90%{
+        background-color: #E3F2FD ;
+    }
+    100%{
+        background-color: #0D47A1;
+    }
+}
+
+.card-link{
+    border: 2px  solid black;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.card{
+animation: bord .5s  ease-in-out infinite ;
+border: solid 10px white;
+background: linear-gradient( to right , #ffba08 , #faa307 , #f48c06 , #e85d04 , #dc2f02 , #d00000 , #9d0208 , #6a040f , #370617 );
+background-size:400% 400% ;
+height: 100vh;
+overflow: hidden;
+/*animation: slack 10s ease-in-out infinite;
+background: linear-gradient( to right , #ffba08 , #faa307 , #f48c06 , #e85d04 , #dc2f02 , #d00000 , #9d0208 , #6a040f , #370617 );
+background-size:400% 400% ;
+height: 100vh;
+overflow: hidden;*/
+}
+
+@keyframes bord{
+    0%{
+     
+        border-top: 10px  solid #f72585 ;
+    }
+    10%{
+        border-top: 10px  solid white ;
+        border-right: 10px  solid #b5179e;   
+    }
+    20%{
+        border-right: 10px  solid white ;       
+        border-bottom: 10px  solid #7209b7 ; 
+    }
+    30%{
+        border-bottom: 10px  solid white ;
+        border-left: 10px  solid #560bad;
+    }
+    40%{
+        border-left: 10px  solid white ;
+       border-top: 10px  solid #480ca8;   
+    }
+    50%{
+        border-top: 10px  solid white ;
+       border-right: 10px  solid #3a0ca3;     
+    }
+    60%{
+        border-right: 10px  solid white ;       
+       border-bottom: 10px  solid #3f37c9;    
+    }
+    70%{
+        border-bottom: 10px  solid white ;
+       border-left: 10px  solid #4361ee;  
+    }
+    80%{
+        border-left: 10px  solid white ;
+       border-top: 10px  solid #4895ef;  
+    }
+    85%{
+        border-top: 10px  solid white ;
+       border-right: 10px  solid #4cc9f0;  
+    }
+    90%{
+        border-right: 10px  solid white ;
+       border-bottom: 10px  solid #48cae4;   
+    }
+    95%{
+        border-bottom: 10px  solid white ;
+       border-left: 10px solid #90e0ef ;
+    }
+    100%{
+        border-left: 10px  solid white ;
+        border-top: 10px solid #f72585 ;
+    }
+}
+
+body{
+animation: lack 10s ease-in-out infinite;
+background: linear-gradient( to right , #ffba08 , #faa307 , #f48c06 , #e85d04 , #dc2f02 , #d00000 , #9d0208 , #6a040f , #370617 );
+background-size:400% 400% ;
+height: 100vh;
+overflow: hidden;
+}
+  
+@keyframes lack {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+
+   

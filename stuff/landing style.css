@@ -1,0 +1,57 @@
+html{
+    background-image: url(red-black.png) ;
+    background-repeat: no-repeat;   
+    background-size: cover; 
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    height: 900px
+    }
+    
+    .wrapper1{
+    text-align: center;
+    font-size: large;
+    font-family: 'Orbitron', sans-serif;
+    color: gray;
+    text-shadow: 3px 0px 1px  white;
+    }
+    
+    .wrapper2{
+    text-align: center;
+    font-size:xx-large;
+    margin-top: 85px ;
+    font-family: 'Anton', sans-serif;
+    color: lightgray;
+    letter-spacing: 2px;
+    }
+    
+    .wrapper3{
+    text-align: center;
+    font-size: x-large;
+    color: lightgray;
+    letter-spacing: 1px;
+    margin-top: -50px;
+    }
+    
+    .button1{
+    background-color: rgb(245, 238, 234);
+    color: darkgray;
+    width: 130px ;
+    height: 40px;
+    float: left;
+    margin-left: 600px;
+    text-align: center;
+    }
+    
+    .button2{
+    background-color:black ;
+    color:white ;
+    float: left;
+    width: 100px;
+    text-align: center;
+    height: 40px ;
+    }
+    
+    .wrapper4{
+    margin-left: -8px;
+    }

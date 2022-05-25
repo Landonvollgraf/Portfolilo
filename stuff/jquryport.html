@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        #image{
+            margin-top: 60px; 
+            background: linear-gradient( to bottom ,  whitesmoke, whitesmoke ,#4D321D ) ; 
+            padding-right: 5px;
+            padding-top: 5px;
+         
+        }
+        
+        html{
+          overflow: auto;
+        }
+
+        .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+    </style>
+</head>
+<body>
+    
+
+    <div class="p-3" style="background:crimson ;">
+        <div class="d-flex flex-row-reverse bd-highlight " >
+            <div class="p-2 bd-highlight ">hi</div>
+            <div class="p-2 bd-highlight">hi</div>
+            <div class="p-2 bd-highlight">hi</div>
+          </div>
+        </div>
+
+<div class="bg-black">
+        <div class="container bg-black">
+          <div class="row row-cols-2">
+            <div class="col">
+              <figure class="figure">
+                <img src="Copy of cherry blossom.png" id="image" class="figure-img img-fluid rounded" alt="...">
+                <figcaption class="figure-caption"></figcaption>
+              </figure>
+              
+            </div>
+            <div class="col text-white " style="margin-top: 150px; font-size: 40px; " >
+              This Is The Tree Of Time
+            </div>
+            <div class="col " style="padding-bottom: 50px;">
+              <br>
+              <br>
+              <br>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated"  role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 25%; ">25%</div>
+              </div>
+              <br>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50%</div>
+              </div>
+              <br>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+              </div>
+              <br>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%">100%</div>
+              </div>
+            </div>
+            <div class="col">
+              <p id="demo" style="color: white; margin-top:100px ; margin-left: 100px; "></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+<input type="date" id="birthday" name="birthday" style="margin-left: 250px;">
+            </div>
+          </div>
+        </div>
+</div>
+
+
+<div class="d-flex flex-column p-2 bd-highlight " style="background: crimson; " >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <div class="p-2 bd-highlight">
+    <button class="accordion" style="background: black; color: white;">Section 1</button>
+<div class="panel p-4" >
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+  </div>
+  <div class="p-2 bd-highlight">
+    <button class="accordion" style="background: black; color: white;">Section 2</button>
+<div class="panel p-4">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+  </div>
+  <div class="p-2 bd-highlight">
+    <button class="accordion" style="background: black; color: white;">Section 3</button>
+    <div class="panel p-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+
+
+
+</body>
+</html>

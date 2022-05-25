@@ -1,0 +1,38 @@
+.container{
+    margin-top: 355px;
+    margin-left: 350px;
+    font-size: x-large;
+    border-top: 2px solid black;
+    height: 500px;
+    background: white;
+    padding-left: 300px;
+    width: 555px;
+}
+
+
+.SunMoon{
+    margin-left: 320px;
+    margin-top:-293px ;
+    position: absolute;
+    z-index: -1;
+    animation: Sun 15s infinite linear;
+}
+
+@keyframes Sun{
+    50%{
+        transform: rotate(180deg);
+   
+    }
+    80%{
+        transform: rotate(180deg);
+   
+    }
+    90%{
+        transform: rotate(360deg);
+   
+    }
+    100%{
+        transform: rotate(360deg);
+       
+    }
+}

@@ -1,0 +1,36 @@
+#color{
+font-size: 15px;
+}
+
+#question{
+font-size: 25px;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #50C878;
+    }
+
+    30% {
+        background-color: peachpuff ;
+    }
+
+    60% {
+        background-color: #d4af37 ;
+    }
+
+    90% {
+        background-color: teal;
+    }
+
+    100% {
+        background-color: crimson;
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
