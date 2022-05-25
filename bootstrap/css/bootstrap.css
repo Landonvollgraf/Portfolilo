@@ -1,0 +1,79 @@
+.bobby{
+    margin-top: 160px;
+    margin-left: 420px;
+}
+@media screen and ( max-width:700px) {
+    .bobby{
+       margin-top: 100px;
+      margin-left: 0px; 
+    }
+    .img{
+        margin-top: 50px;
+    }
+}
+
+.cardy{
+  margin-left: 16px;
+}
+.green1{
+  margin-left: 120px;
+}
+.green2{
+  margin-left: 65px;
+}
+.green3{
+  margin-left: 8px;
+}
+.red1{
+  margin-left: 70px;
+}
+.red2{
+  margin-left: 36px;
+}
+.red3{
+  margin-left: 0px;
+}
+
+@media screen and (max-width:2000px) {
+  .gay{
+    display: none;
+  }
+  
+}
+
+
+@media screen and (max-width:700px) {
+  .thing{
+    display:initial;
+  }
+  .dope{
+    display: none;
+  }
+  
+  .gay{
+    display: initial;
+  margin-top: 14px;
+  }
+  .green1{
+    margin-left: 30px;
+  }
+  .green2{
+    margin-left: 30px;
+  }
+  .green3{
+    margin-left: 30px;
+  }
+  .red1{
+    margin-left: 0px;
+  }
+  .red2{
+    margin-left: 0px;
+  }
+  .red3{
+    margin-left: 0px;
+  }
+}
+
+
+
+
